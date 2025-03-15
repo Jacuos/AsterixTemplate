@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f36057e671748449f9bbb014fabfa23, type: 3}
+  m_Name: Levels Config
+  m_EditorClassIdentifier: 
+  minPointsToWin: 50
+  boardSize: {x: 15, y: 15}
+  boardStartPos: {x: -7, y: -7}
+  collectiblePointsOverMinimumRandom: {x: 10, y: 10}
+  collectibles:
+  - {fileID: 2862033140564476010, guid: 0f8ebe680ea8440758ddc93e59c5dde0, type: 3}
+  - {fileID: 1317916732627210770, guid: 929c9e5544c144183bdc52545108af90, type: 3}
+  - {fileID: 7672201655515438718, guid: a3175997d58224e459421ce88f53bb2e, type: 3}
+  obstacles:
+  - {fileID: 7056530011887403901, guid: b91695472ed7f4ee5b1f0fb80eff05bf, type: 3}
+  obstacleCountRandom: {x: 3, y: 15}
